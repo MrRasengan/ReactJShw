@@ -1,6 +1,8 @@
 import "./App.css";
 import CommentsList from "./components/Commentslist";
 import Message from "./components/Message";
+import TemperatureConverter from "./components/TemperatureConverter";
+import TodoList from "./components/TodoList";
 
 function App() {
 	return (
@@ -12,6 +14,11 @@ function App() {
 
 			<p className="less">Домашнее задание 2</p>
       <CommentsList/>
+			<br></br>
+
+			<p className="less">Домашнее задание 3</p>
+			<TemperatureConverter/>
+			<TodoList/>
 		</div>
 	);
 }
